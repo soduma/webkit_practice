@@ -16,6 +16,7 @@
 		A026F53B26B2921E00C7B8A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A026F53926B2921E00C7B8A7 /* LaunchScreen.storyboard */; };
 		A026F54626B2921E00C7B8A7 /* webkit_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026F54526B2921E00C7B8A7 /* webkit_practiceTests.swift */; };
 		A026F55126B2921E00C7B8A7 /* webkit_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026F55026B2921E00C7B8A7 /* webkit_practiceUITests.swift */; };
+		A026F55F26B299CB00C7B8A7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026F55E26B299CB00C7B8A7 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A026F54C26B2921E00C7B8A7 /* webkit_practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webkit_practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A026F55026B2921E00C7B8A7 /* webkit_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webkit_practiceUITests.swift; sourceTree = "<group>"; };
 		A026F55226B2921E00C7B8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A026F55E26B299CB00C7B8A7 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				A026F52B26B2921D00C7B8A7 /* AppDelegate.swift */,
 				A026F52D26B2921D00C7B8A7 /* SceneDelegate.swift */,
 				A026F52F26B2921D00C7B8A7 /* ViewController.swift */,
+				A026F55E26B299CB00C7B8A7 /* WebViewController.swift */,
 				A026F53126B2921D00C7B8A7 /* Main.storyboard */,
 				A026F53726B2921E00C7B8A7 /* Assets.xcassets */,
 				A026F53926B2921E00C7B8A7 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				A026F53626B2921D00C7B8A7 /* webkit_practice.xcdatamodeld in Sources */,
 				A026F53026B2921D00C7B8A7 /* ViewController.swift in Sources */,
 				A026F52C26B2921D00C7B8A7 /* AppDelegate.swift in Sources */,
+				A026F55F26B299CB00C7B8A7 /* WebViewController.swift in Sources */,
 				A026F52E26B2921D00C7B8A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

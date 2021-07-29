@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var safariButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    @IBAction func tap(_ sender: Any) {
+        
+        guard let url = URL(string: "http://www.apple.com/") else { return }
+        
+        let safari = SFSafariViewController(url: url)
+        present(safari, animated: true, completion: nil)
+    }
+    
 }
-
